@@ -1,0 +1,54 @@
+
+
+.profile-img {
+  height: 300px;
+  border-radius: 45%;
+}
+
+.Title{
+  height: 500px;
+  background-image: url('./Images/Sunset\ background\ image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1{
+  text-align: center;
+  color: orangered ;
+  
+}
+h3{
+  text-align: center;
+  color: #3CB371;
+}
+h2{
+  text-align: center;
+  color: #4682b4 ;
+  
+}
+h4{
+  text-align: center;
+  color: darkblue;
+  font-weight: bolder;
+}
+p{
+  text-align: center;
+  
+}
+.skills img{
+  height: 200px;
+ 
+  
+}
+button{
+  height: 30px;
+  width: 125px;
+  border: 0;
+  border-radius: 10%;
+  background-color: #3CB371 ;
+    
+  }
+.container{
+  display: flex;
+  justify-content: center;
+}

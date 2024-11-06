@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif; /* Base font for the site */
+  background-color: #f8f8f8; /* Off-white background color */
+  color: #333; /* Default text color */
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+}
+
+header {
+  background-color: #c21807; /* Cherry red header background color */
+  color: #f8f8f8; /* Off-white text color in header */
+  text-align: center; /* Center header text */
+  padding: 20px 0; /* Vertical padding */
+}
+
+main {
+  padding: 20px; /* Padding around the main content */
+}
+
+.features {
+  display: flex; /* Flexbox layout for features */
+  flex-wrap: wrap; /* Allow wrapping of items */
+  justify-content: center; /* Center-align features */
+  gap: 20px; /* Space between features */
+}
+
+.feature .subject {
+  background-color: #f20f0f; /* Card background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  padding: 20px; /* Inner padding */
+  width: 300px; /* Fixed width for consistency */
+  transition: transform 0.3s; /* Animation on hover */
+}
+
+
+
+
+
+.feature:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.subject:hover{
+  transform: scale(1.05);
+}
+
+.cta {
+  text-align: center; /* Center the call-to-action */
+  margin-top: 40px; /* Space above the CTA */
+}
+
+.cta-button {
+  display: inline-block; /* Make link a block element */
+  margin-top: 10px; /* Space above the button */
+  padding: 15px 25px; /* Padding for the button */
+  background-color: #c21807; /* Cherry red button background color */
+  color: #f8f8f8; /* Off-white button text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1.2em; /* Increase font size */
+  transition: background-color 0.3s; /* Animation on hover */
+}
+
+.cta-button:hover {
+  background-color: #a81005; /* Darker cherry red on hover */
+}
+
+footer {
+  text-align: center; /* Center footer text */
+  padding: 10px 0; /* Padding for footer */
+  background-color: #c21807; /* Cherry red background for footer */
+  color: #f8f8f8; /* Off-white footer text color */
+}

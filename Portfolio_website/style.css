@@ -1,0 +1,50 @@
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #181818;
+  color: #e0e0e0;
+}
+
+/* Specific sections and elements in dark mode */
+body.dark-mode header {
+  background-color: #202020;
+}
+
+body.dark-mode nav ul li a {
+  color: #e0e0e0;
+}
+
+body.dark-mode ul li a:hover {
+  color: #64ffda;
+}
+
+body.dark-mode .Selfie img {
+  border-color: #64ffda;
+}
+
+body.dark-mode #experience,
+body.dark-mode #skills,
+body.dark-mode #projects,
+body.dark-mode #contact {
+  background-color: #202020;
+}
+
+body.dark-mode #contact form {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+body.dark-mode #contact input,
+body.dark-mode #contact textarea {
+  background-color: #333;
+  color: #e0e0e0;
+  border-color: #444;
+}
+
+body.dark-mode #contact button {
+  background-color: #64ffda;
+  color: #202020;
+}
+
+body.dark-mode footer {
+  background-color: #202020;
+}
